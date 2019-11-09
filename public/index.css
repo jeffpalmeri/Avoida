@@ -1,0 +1,45 @@
+body * { 
+  display: flex;
+  padding: 0; 
+  margin: 0,
+  -webkit-touch-callout: none; iOS Safari
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+    
+canvas { 
+  background: #eee; 
+  margin: 0 auto; 
+}
+
+.title {
+  justify-content: center;
+}
+
+.game-wrapper {
+  justify-content: space-around;
+}
+
+.game {
+  justify-content: center;
+}
+
+.instructions, .high-scores {
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+ol, ul {
+  flex-direction: column;
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.modal-body, .time-div, .modal-header, .modal-footer, .modal-content {
+  justify-content: center;
+}
